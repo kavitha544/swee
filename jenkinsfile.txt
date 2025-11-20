@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build and Test') {
+            steps {
+                echo "successful"
+            }
+        }
+
+        stage('Generate Artifact') {
+            steps {
+                echo "hello"
+            }
+        }
+    }
+}
